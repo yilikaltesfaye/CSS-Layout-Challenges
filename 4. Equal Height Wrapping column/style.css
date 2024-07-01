@@ -1,0 +1,16 @@
+.wrapper {
+    margin: 0 auto;
+    padding: 1rem;
+    width: clamp(calc(320px - 3rem), 75%, 80ch);
+    border: 0.5rem solid black;
+    gap: 1rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .block {
+    flex: 1 0 10ch;
+    padding: 0 1rem;
+    border: 0.5rem solid green;
+  }
